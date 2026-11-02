@@ -1,0 +1,8 @@
+{
+  "name": "Azarian Inc",
+  "short_name": "Azarian",
+  "icons": [{ "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "browser"
+}

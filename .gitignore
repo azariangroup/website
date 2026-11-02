@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Local editor / Claude preview settings
+.claude/
