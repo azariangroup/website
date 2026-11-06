@@ -87,6 +87,10 @@ p { margin: 0 0 1em; }
   max-width: none; display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap;
 }
 .section-head--split > div { max-width: 640px; }
+.section-head--split .filters {
+  flex: 1 1 100%; min-width: 0; flex-wrap: nowrap; overflow-x: auto;
+  overscroll-behavior-inline: contain; scrollbar-width: thin; padding-bottom: 6px;
+}
 
 /* Buttons */
 .btn {
@@ -276,8 +280,9 @@ p { margin: 0 0 1em; }
 /* ---------- Projects ---------- */
 .filters { display: flex; gap: 8px; flex-wrap: wrap; }
 .filter {
-  padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line); background: #fff; cursor: pointer;
-  font-family: var(--font-head); font-weight: 600; font-size: .9rem; color: var(--ink-2); transition: all .2s;
+  padding: clamp(6px, .6vw, 9px) clamp(7px, 1vw, 14px); border-radius: 999px; border: 1px solid var(--line); background: #fff; cursor: pointer;
+  font-family: var(--font-head); font-weight: 600; font-size: clamp(.72rem, 1.1vw, .9rem); color: var(--ink-2); transition: all .2s;
+  flex: 0 0 auto; white-space: nowrap;
 }
 .filter:hover { border-color: var(--ink); }
 .filter.is-active { background: var(--ink); border-color: var(--ink); color: #fff; }
