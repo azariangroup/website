@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.azarianinc.com/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.azarianinc.com/services.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.azarianinc.com/projects.html</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.azarianinc.com/projects.html</loc><lastmod>2026-11-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.azarianinc.com/project-custom-home.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.azarianinc.com/project-multifamily.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.azarianinc.com/project-detached-adu.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.azarianinc.com/project-garage-conversion.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.azarianinc.com/project-whole-home-remodel.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.azarianinc.com/project-kitchen-remodel.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.azarianinc.com/project-bathroom-remodel.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.azarianinc.com/project-home-addition.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.azarianinc.com/project-tenant-improvement.html</loc><lastmod>2026-11-06</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.azarianinc.com/about.html</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.azarianinc.com/contact.html</loc><lastmod>2026-11-01</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
 </urlset>
