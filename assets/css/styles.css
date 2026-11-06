@@ -238,6 +238,7 @@ p { margin: 0 0 1em; }
   display: flex; flex-direction: column;
 }
 .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.service-card:focus-visible { outline: 3px solid var(--accent-dark); outline-offset: 4px; }
 .service-card__img { aspect-ratio: 16 / 10; overflow: hidden; }
 .service-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
 .service-card:hover .service-card__img img { transform: scale(1.06); }
