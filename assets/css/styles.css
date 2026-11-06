@@ -167,11 +167,7 @@ p { margin: 0 0 1em; }
 .nav-open .nav-toggle span::after { transform: translateY(-6px) rotate(-45deg); }
 
 /* ---------- Hero ---------- */
-.hero { position: relative; padding: clamp(48px, 7vw, 96px) 0 clamp(64px, 8vw, 110px); overflow: hidden; }
-.hero::before {
-  content: ""; position: absolute; inset: 0 0 auto auto; width: 46%; height: 100%;
-  background: var(--bg-soft); border-bottom-left-radius: 60px; z-index: -1;
-}
+.hero { position: relative; padding: clamp(48px, 7vw, 96px) 0 clamp(64px, 8vw, 110px); overflow: hidden; background: var(--bg-soft); }
 .hero__grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
 .hero__badge {
   display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px 7px 8px;
@@ -227,8 +223,8 @@ p { margin: 0 0 1em; }
   position: absolute; left: 24px; top: 24px; background: var(--accent); color: var(--ink);
   border-radius: var(--radius); padding: 18px 20px; font-family: var(--font-head); box-shadow: var(--shadow);
 }
-.experience-tag strong { display: block; font-size: 2.4rem; line-height: 1; font-weight: 800; }
-.experience-tag span { font-size: .82rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.experience-tag strong { display: block; font-size: clamp(1.35rem, 2.4vw, 2.1rem); line-height: 1; font-weight: 800; }
+.experience-tag span { font-size: .82rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
 .checklist { list-style: none; padding: 0; margin: 26px 0 34px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 24px; }
 .checklist li { display: flex; gap: 10px; align-items: flex-start; font-weight: 600; color: var(--ink); }
 .checklist svg { width: 22px; height: 22px; color: var(--accent-dark); flex: none; margin-top: 2px; }
@@ -513,7 +509,9 @@ p { margin: 0 0 1em; }
   .hero::before { display: none; }
   .hero__grid, .split, .faq-layout, .contact-grid, .service-row { grid-template-columns: 1fr; }
   .service-row:nth-child(even) .service-row__media { order: 0; }
-  .hero__media { max-width: 560px; }
+  .hero__media { width: 100%; max-width: none; }
+  .hero__img { aspect-ratio: 16 / 10; }
+  .split__media .img-main { aspect-ratio: 16 / 10; }
   .hero__card--rating { left: 12px; }
   .hero__card--years { right: 12px; }
   .split__media { margin-bottom: 36px; }
